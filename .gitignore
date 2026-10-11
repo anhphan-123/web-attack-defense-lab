@@ -1,0 +1,9 @@
+.env
+.env.*
+*.log
+*.key
+*.pem
+*.tar
+__pycache__/
+*.pyc
+.vscode/

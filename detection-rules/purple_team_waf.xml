@@ -1,0 +1,12 @@
+<group name="purple_team,waf,web_security,">
+
+  <rule id="100210" level="10">
+    <decoded_as>json</decoded_as>
+    <field name="event_source" type="pcre2">^modsecurity_waf$</field>
+    <field name="attack_type" type="pcre2">^XSS$</field>
+    <field name="http_code" type="pcre2">^403$</field>
+    <description>Purple Team: XSS attack blocked by ModSecurity WAF</description>
+    <group>web_attack,xss,</group>
+  </rule>
+
+</group>
