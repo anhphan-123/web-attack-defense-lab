@@ -17,7 +17,7 @@ Burp Suite · OWASP Juice Shop · Nginx · ModSecurity · OWASP CRS · Python ·
 ## Incident Reports
 
 - [Incident 001 – XSS Detection & Prevention](incidents/incident-001-xss.md)
-
+- [Incident 002 – SQL Injection Detection & Prevention](incidents/incident-002-sqli.md)
 ## Project Status
 
 Work in progress. Additional scenarios, detection rules, and technical documentation will be added as the lab progresses.
