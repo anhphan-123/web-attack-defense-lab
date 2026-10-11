@@ -16,4 +16,12 @@
   <description>Purple Team: SQL Injection blocked by ModSecurity WAF</description>
   <group>web_attack,sqli,</group>
 </rule>
+<rule id="100230" level="10">
+  <decoded_as>json</decoded_as>
+  <field name="event_source" type="pcre2">^web_enumeration_detector$</field>
+  <field name="attack_type" type="pcre2">^WebEnumeration$</field>
+  <field name="detection" type="pcre2">^suspicious_path_enumeration$</field>
+  <description>Purple Team: Suspicious web path enumeration detected</description>
+  <group>web_attack,enumeration,</group>
+</rule>
 </group>
